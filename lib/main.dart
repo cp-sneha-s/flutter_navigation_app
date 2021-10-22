@@ -51,19 +51,6 @@ class _NewPageState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.teal,
-          leading: Icon(
-            MdiIcons.home,
-            color: Colors.white,
-          ),
-          title: Text(
-            "Navigation App",
-            style: TextStyle(
-              color: Colors.white,
-            ),
-          ),
-        ),
         body: Center(
           child: myWidgetList.elementAt(selectedIndex),
         ),
